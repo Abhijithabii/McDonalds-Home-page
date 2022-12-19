@@ -1,0 +1,427 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+p,h1,h2,h3,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.page1{
+    width: 100%;
+    height: 901px;
+}
+.firstpagetop{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    position: relative;
+}
+.topcontent{
+    width: 64%;
+    height: 100%;
+    display: flex;
+
+}
+.logo{
+width: 38%;
+height: 100%;
+
+position: relative;
+}
+.logo img{
+    position: absolute;
+    top: 22px;
+    left: 161px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content ul {
+ list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 57px;
+    color: black;
+}.firstpagetop button{
+    width: 7%;
+    height: 27%;
+    background-color:red;
+    border: none;
+    position: absolute;
+    left: 1173px;
+    top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+}
+.backgroundimages{
+    width: 100%;
+    height: 770px;
+    line-height: 1;
+    background-color: black;
+
+}
+.backgroundimages img{
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    opacity: 0.4;
+}
+.backgroundimages p{
+    position: absolute;
+    top: 385px;
+    left: 108px;
+    font-size: 54px;
+    font-weight: bolder;
+    color: white;
+}
+.page1 button{
+    position: absolute;
+    top: 655px;
+    left: 116px;
+    background-color: orange;
+    border-radius: 10px;
+    width: 186px;
+    height: 57px;
+    cursor: pointer;
+
+}
+/* page2 */
+.page2{
+    width: 100%;
+    height: 960px;
+    background-color: white;
+    position: relative;
+}
+.page2main{
+    width: 1170px;
+    height: 702px;
+    border-top: 1px solid black;
+    position: absolute;
+    top: 170px;
+    left: 173px;
+    display: flex;
+    justify-content: space-around;
+}
+.page2 h2{
+    font-size: 36px;
+    width: 17%;
+    position: absolute;
+    top: 112px;
+    left: 172px;
+    font-weight: bolder;
+}
+.page2sub1,.page2sub2,.page2sub3{
+width: 30%;
+height: 80%;
+margin-top: 53px;
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+}
+.page2sub1 img,.page2sub2 img,.page2sub3 img{
+    width: 100%;
+    height: 50%;
+}
+.page2sub1 h3,.page2sub2 h3,.page2sub3 h3{
+    font-size: 23px;
+    margin-top: 19px;
+    margin-left: 23px;
+}
+.page2sub1 h5,.page2sub2 h5,.page2sub3 h5{
+    margin-top: 39px;
+    color: red;
+    font-weight: bolder;
+    margin-left: 23px;
+}
+.page2sub1 h6,.page2sub2 h6,.page2sub3 h6{
+    margin-left: 23px;
+}
+.alink{
+    position: absolute;
+    top: 570px;
+    margin-left: 23px;
+}
+.page2 button{
+    width: 126px;
+    height: 52px;
+    background-color: orange;
+    border-radius: 3px;
+    border-color: orange;
+    top: 10px;
+    margin-top: 850px;
+    margin-left: 193px;
+    cursor: pointer;
+}
+/* page3 */
+.page3{
+    width: 100%;
+    height: 930px;
+    background-color:white;
+    position: relative;
+  
+}
+.page3 img{
+    position: absolute;
+    top: 0;
+    left: 175px;
+
+}
+.page3 h1{
+    position: absolute;
+    top: 533px;
+    left: 401px;
+    font-size: 48px;
+    color:black;
+    line-height: 42px
+}
+.page3 p{
+    position: absolute;
+    top: 676px;
+    left: 400px;
+    color:black;
+}
+
+.page3 button{
+    width: 194px;
+    position: absolute;
+    top: 799px;
+    left: 396px;
+    height: 51px;
+    background-color: orange;
+    border-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* page4 */
+.page4{
+    width: 100%;
+    height: 400px;
+}
+   
+.page4contents{
+    width: 1264px;
+    height: 364px;
+    margin-left: 142px;
+    display: flex;
+    
+}
+.page4sub1,.page4sub2,.page4sub3,.page4sub4{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.page4sub1 img,.page4sub2 img,.page4sub3 img,.page4sub4 img{
+    width: 80%;
+    height: 75%;
+}
+.page4sub1 a,.page4sub2 a,.page4sub3 a,.page4sub4 a{
+    color:#006bae ;
+    margin-top: 18px;
+}
+/* page5 */
+.page5{
+    width: 100%;
+    height: 850px;
+    border-bottom: 1px solid black;
+}
+.page5main{
+    width: 80%;
+    height: 100%;
+    margin-left: 163px;
+    position: relative;
+}
+.page51{
+    width: 50%;
+    height: 315px;
+    position: absolute;
+    top: 0;
+}
+.page51 img{
+    width: 100%;
+    height: 100%;
+}
+.page52{
+    width: 50%;
+    height: 315px;
+    position: absolute;
+    left: 607px;
+    display: flex;
+    flex-direction: column;
+}
+.page52 h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 417px;
+    margin-left: 25px;
+}
+.page52 p{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.page52 button{
+    width: 129px;
+    height: 42px;
+    margin-top: 24px;
+    margin-left: 21px;
+    background-color: orange;
+    border-radius: 5px;
+    border-color: orange;
+    cursor: pointer;
+}
+.page53{
+    width: 50%;
+    height: 490px;
+    position: absolute;
+    top: 338px;
+
+}
+.page53 img{
+    width: 100%;
+    height: 323px;
+}
+.page54{
+    width: 50%;
+    height: 177px;
+    position: absolute;
+    top: 337px;
+    left: 607px;
+}
+.page54 h1{
+    width: 578px;
+    margin-left: 28px;
+    font-weight: 800;
+}
+.page54 p{
+    margin-top: 18px;
+    margin-left: 31px;
+}
+.page55{
+    width: 268px;
+    height: 300px;
+    position: absolute;
+    top: 484px;
+    left: 637px;
+    border-top: 1px solid black;
+}
+.page55 h1{
+    width: 134px;
+    height: 83px;
+    font-size: 53px;
+    margin-top: 21px;
+}
+.page55 button{
+    width: 159px;
+    height: 49px;
+    margin-top: 54px;
+    background-color: orange;
+    border-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.page56{
+    width: 270px;
+    height: 190px;
+    border-top: 1px solid black;
+    position: absolute;
+    top: 484px;
+    left: 929px;
+}
+.page56 h1{
+    width: 134px;
+    height: 83px;
+    font-size: 53px;
+    margin-top: 21px;
+}
+.page56 p{
+    width: 200px;
+    margin-top: 25px;
+}
+/* page6 */
+.page6{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.page6content{
+    width: 1206px;
+    height: 400px;
+    position: absolute;
+    top: 52px;
+    left: 156px;
+    display: flex;
+}
+.page61,.page62,.page63,.page64,.page65,.page66{
+    width: 201px;
+    height: 100%;
+}
+.page6content ul li{
+    list-style: none;
+    margin-left: -40px;
+    line-height: 32px;
+}
+.page6img1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 468px;
+    left: 159px;
+}
+.page6img2{
+    position: absolute;
+    top: 468px;
+    left: 211px;
+    width: 42px;
+    height: 41px;
+} 
+.page6last{
+    width: 1205px;
+    height: 144px;
+    position: absolute;
+    top: 554px;
+    left: 131px;
+    display: flex;
+    border-top: 1px solid black;
+}
+.page6last1{
+    width: 62px;
+    height: 34px;
+    margin-top: 53px;
+    margin-left: 22px;
+}
+.page6last2{
+    width: 150px;
+    height: 33px;
+    margin-top: 53px;
+    margin-left: 23px;
+}
+.page6last3{
+    width: 342px;
+    height: 30px;
+    margin-top: 53px;
+    margin-left: 23px;
+}
+.page6last4{
+    width: 40px;
+    height: 40px;
+    margin-left: 167px;
+    margin-top: 50px;
+}
+.page6last4 img{
+    width: 100%;
+    height: 100%;
+}
+.page6last5{
+    width: 266px;
+    height: 53px;
+    margin-top: 50px;
+    margin-left: 71px;
+}
